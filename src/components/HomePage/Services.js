@@ -39,8 +39,8 @@ export default class Services extends Component {
                   key={item.id}
                 >
                   <div className="service-icon">{item.icon}</div>
-                  <div className="mt-3 text-capitalize">{item.title}</div>
-                  <div className="mt-3">{item.text}</div>
+                  <div className="mt-3 text-capitalize font-weight-bold">{item.title}</div>
+                  <p className="mt-3">{item.text}</p>
                 </div>
               );
             })}
@@ -52,12 +52,12 @@ export default class Services extends Component {
 }
 
 const ServicesWrapper = styled.section`
-  background: rgba(95, 183, 234, 0.5);
+  background: rgba(238, 34, 34, 0.9);
   .service-icon {
     font-size: 2.5rem;
-    color: var(--primaryColor);
+    color: var(--mainWhite);
   }
   p {
-    color: var(--darkGrey);
+    color: var(--mainWhite);    
   }
 `;
