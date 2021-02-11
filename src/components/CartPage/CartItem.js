@@ -27,8 +27,8 @@ export default function CartItem({
       {/*end of title */}
       {/* price */}
       <div className="col-10 mx-auto col-lg-2 pb-2">
-        <span className="d-lg-none">price : $</span>
-        {price}
+        <span className="d-lg-none">price : ${price}</span>
+        
       </div>
       {/*end of price */}
       {/* count controls */}
